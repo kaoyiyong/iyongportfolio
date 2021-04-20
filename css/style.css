@@ -1,0 +1,237 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:Times New Roman; 	
+}
+
+p {
+	font-size: 16px;
+}
+
+.navbar-brand img {
+	height: 50px;
+	;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important;
+	}
+}
+
+.banner {
+	margin-top: 50px;
+	background: #f6e2d4;
+
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding:100px 0;
+	background:linear-gradient(white,#f6e2d4); 
+	box-shadow:5px 5px 4px gray;
+}
+
+.about img{
+	box-shadow:2px 2px 4px gray;
+	height: 300px;
+	width: 320px;
+	
+}
+
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:black;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+}
+
+.story span {
+	
+	font-size: 30px;
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+.gallery_main{
+	width: 100%;
+	float: left;
+	background-color:#f6e2d4;
+	height: auto;
+	padding:100px 0;
+	background:linear-gradient(white,#f6e2d4); 
+	box-shadow:5px 5px 4px gray;
+}
+}
+
+.gallery_blog {
+  position: relative;
+  margin-top: 20px;
+  padding:100px 0;
+	background:linear-gradient(white,#f6e2d4); 
+	box-shadow:5px 5px 4px gray;
+}
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+
+.portfolio {
+	background-color: #f6e2d4;
+	padding-bottom:70px;
+}
+
+.product_1.jpg {
+	background-color: #f6e2d4
+}
+.portfolio.card {
+	background-color: #f6e2d4;
+	padding: 30px 20px;
+	margin-bottom: 10px;
+}
+.portfolio img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.portfolio img:hover {
+	opacity: 10;
+}
+.portfolio_name {
+	padding: 10px;
+}
+
+
+
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/contact_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+	background-color: #f6e2d4;
+}
+
+
+
+.services {
+	padding:0px 0;
+	background-color: #f6e2d4;
+	 
+}
+
+
+.services img{
+	
+	height: 230px;
+	width: 200px;
+	display: inline-flex;
+
+
+}
+
+.services2 img{
+	height: 350px;
+	width: 500px;
+	display: inline-flex;
+
+}
+
+.services2 {
+	padding:0px 0;
+	background-color: #f6e2d4;
+	 
+}
+
+.contact .title {
+	color: black;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #e6af88;
+  color: black;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #e6af88;
+}
+
+
+footer {
+	background-color:#e6af88;
+	padding:20px 20px; 
+}
+
+footer p {
+	line-height: 39px;
+}
+
+.about-img{
+	width: 100%
+	border: solid red 1px;
+}
+
+.card{
+	display: inline;
+}
